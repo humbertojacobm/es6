@@ -1,0 +1,32 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "ES6\r JAVASCRIPT 2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js bundle.js",
+    "build:local": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humbertojacobm/es6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humbertojacobm/es6/issues"
+  },
+  "homepage": "https://github.com/humbertojacobm/es6#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "webpack": "4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
