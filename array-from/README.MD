@@ -13,3 +13,18 @@ npm run build:dev-server:array-from
 http://localhost:9000/array-from/index.html
 
 #ARRAY-FROM
+
+#return node-list
+document.querySelectorAll('.product-price')
+
+#convert to an array easy to manipulate
+Array.from(document.querySelectorAll('.product-price'));
+
+#example:
+
+const products = Array.from(document.querySelectorAll('.product-price'));
+
+products
+   .filter( product => parseFloat(product.innerHTML) <10)
+   .forEach( x => x.style.color = 'red');
+
