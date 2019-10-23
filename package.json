@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack index.js bundle.js",
-    "build:local": "webpack"
+    "build:local": "webpack",
+    "build:array-from": "webpack --config ./array-from/webpack.config.js",
+    "build:dev-server:array-from": "webpack-dev-server --config ./array-from/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,8 @@
     "babel-loader": "^8.0.6",
     "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
     "webpack": "4.41.2",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
     "lodash": "^4.17.15"
