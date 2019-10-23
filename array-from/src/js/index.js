@@ -1,2 +1,3 @@
 console.log("hi, array-from");
-console.log("hi, array-from2");
+const products = document.querySelectorAll('.product-price');
+console.log(products);
