@@ -1,6 +1,7 @@
 node_modules
 platzi-video
 array-from/dist
+promise/dist
 .DS_Store
 bundle.js
 external/dist

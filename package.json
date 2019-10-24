@@ -8,7 +8,9 @@
     "build": "webpack index.js bundle.js",
     "build:local": "webpack",
     "build:array-from": "webpack --config ./array-from/webpack.config.js",
-    "build:dev-server:array-from": "webpack-dev-server --config ./array-from/webpack.config.js"
+    "build:dev-server:array-from": "webpack-dev-server --config ./array-from/webpack.config.js",
+    "build:dev-server:promise": "webpack-dev-server --config ./promise/webpack.config.js"
+
   },
   "repository": {
     "type": "git",
