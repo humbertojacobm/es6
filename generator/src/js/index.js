@@ -1,1 +1,1 @@
-console.log("hi, generator");
+import './graph-generator';
