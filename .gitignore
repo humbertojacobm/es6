@@ -3,6 +3,7 @@ platzi-video
 array-from/dist
 promise/dist
 generator/dist
+map-weak-map/dist
 .DS_Store
 bundle.js
 external/dist

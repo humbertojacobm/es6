@@ -10,7 +10,8 @@
     "build:array-from": "webpack --config ./array-from/webpack.config.js",
     "build:dev-server:array-from": "webpack-dev-server --config ./array-from/webpack.config.js",
     "build:dev-server:promise": "webpack-dev-server --config ./promise/webpack.config.js",
-    "build:dev-server:generator": "webpack-dev-server --config ./generator/webpack.config.js"
+    "build:dev-server:generator": "webpack-dev-server --config ./generator/webpack.config.js",
+    "build:dev-server:map": "webpack-dev-server --config ./map-weak-map/webpack.config.js"
   },
   "repository": {
     "type": "git",
