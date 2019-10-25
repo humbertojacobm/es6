@@ -1,1 +1,1 @@
-import './map-01';
+import './weak-map-03';
