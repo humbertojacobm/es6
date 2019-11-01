@@ -4,6 +4,8 @@ array-from/dist
 promise/dist
 generator/dist
 map-weak-map/dist
+rest-parameters/dist
+destructuring-required-values/dist
 .DS_Store
 bundle.js
 external/dist
